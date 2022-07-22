@@ -1,0 +1,332 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(46, 46, 46);
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.red-btn {
+  background-color: #e50914;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.angle-right-icon {
+  color: #fff;
+  position: relative;
+  font-size: 22px;
+  right: 30px;
+}
+
+.close {
+  display: none;
+}
+
+.open {
+  display: block;
+}
+
+.center {
+  text-align: center;
+}
+
+.font-title {
+}
+
+/* Heading */
+
+.heading {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.9) 20%,
+      rgba(0, 0, 0, 0.4) 40%,
+      rgba(0, 0, 0, 0.9) 90%
+    ),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/f841d4c7-10e1-40af-bcae-07a3f8dc141a/0c2adf03-1761-41ff-86c1-76eb78c2fea0/VN-en-20220502-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 748px;
+  object-fit: cover;
+  /* background-attachment: fixed; */
+}
+
+.story-header-wrapper {
+  height: 100px;
+}
+
+.lang-container {
+  margin-top: 10px;
+  width: 10%;
+}
+
+.lang-container .world-icon {
+  position: relative;
+  color: #fff;
+  left: 42px;
+  top: 2px;
+  font-size: 14px;
+}
+
+.story-header-wrapper img {
+  width: 167px;
+  float: left;
+  margin-top: 24px;
+  margin-left: 54px;
+  opacity: 1.4;
+}
+
+.story-header-wrapper .lang-container {
+  width: 15%;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 52px;
+  margin-top: 27px;
+  width: 250px;
+  min-width: 250px;
+}
+
+.lang-container .lang-picker select {
+  padding: 9px 4px 9px 22px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border: 2px solid #aaa;
+  min-width: 110px;
+}
+
+.lang-container .sign-up {
+  padding: 0 18px;
+  line-height: 36px;
+  min-width: 86px;
+}
+
+.middle-1 {
+  padding-top: 150px;
+}
+
+.middle-1 .story-title {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin: 0 auto;
+}
+
+.middle-1 .story-subtitle,
+.middle-1 .story-title {
+  max-width: 800px;
+}
+
+.middle-1 .story-subtitle {
+  font-size: 1.625rem;
+  margin: 1rem auto;
+}
+
+.story-middle-text h1,
+.story-middle-text h2 {
+  text-align: center;
+  color: white;
+  /* text-shadow: 0 0 4px #000; */
+}
+
+.story-email-form {
+  text-align: center;
+}
+
+.story-email-form .story-email-title {
+  color: #fff;
+  padding-top: 16px;
+  padding-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.story-email-form .email-form {
+  padding: 29px 315px 19px 12px;
+  margin-right: -8px;
+  font-size: 16px;
+}
+
+.story-email-form .submit-form {
+  border: none;
+  padding: 18px 20px;
+  font-size: 1.875rem;
+  letter-spacing: 5px;
+}
+
+/* middle-2 */
+
+.middle-2 {
+  background-color: #000;
+  margin-top: 8px;
+}
+
+.main-middle-2 {
+  display: flex;
+  justify-content: center;
+  width: 1100px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+.middle-2 img {
+  width: 505px;
+}
+
+.middle-2 .story-middle-text {
+  width: 52%;
+}
+
+.middle-3 .story-title,
+.middle-2 .story-title {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  color: white;
+  /* width: 85%; */
+  text-align: left;
+}
+
+.middle-2 .story-subtitle {
+  font-size: 1.625rem;
+  font-weight: 400;
+  color: white;
+  width: 90%;
+  margin: 0.75em 0 0.25em;
+}
+
+.middle-2 a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  font-size: 2rem;
+  margin-top: 1em;
+}
+
+.middle-3 {
+  background-color: #000;
+  margin-top: 8px;
+  padding: 70px 0;
+}
+
+.middle-3 ul {
+  width: 75%;
+  max-width: 850px;
+  margin: 52px auto;
+}
+
+.middle-3 .aq-list-item {
+  max-width: 850px;
+  list-style-type: none;
+  margin: 0 0 8px 0;
+  display: list-item;
+}
+
+.icon-btn {
+  float: right;
+  position: relative;
+  left: 28px;
+}
+
+.middle-3 button,
+.middle-3 .desc-answer {
+  text-align: left;
+  background-color: #303030;
+  font-size: 1.625rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.middle-3 .desc-answer {
+  padding: 1.2rem;
+  line-height: 1.4;
+  letter-spacing: 1.1;
+}
+
+.middle-3 button {
+  width: 100%;
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  margin-bottom: 1px;
+  position: relative;
+  border: 0;
+  cursor: pointer;
+}
+/* footer */
+
+.footer {
+  background-color: #000;
+  margin-top: 8px;
+}
+.container-footer {
+  max-width: 1000px;
+  padding: 70px 45px;
+  margin: 0 auto;
+}
+
+.footer .contact-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer .contact-list-item {
+  min-width: 100px;
+  width: 25%;
+  margin-bottom: 16px;
+}
+
+.footer .footer-top {
+  margin-bottom: 30px;
+}
+
+.footer a {
+  color: #757575;
+  text-decoration: none;
+}
+
+.footer .contact-list-item a {
+  text-decoration: none;
+  color: #757575;
+  font-size: 13px;
+}
+
+.footer .lang-picker {
+  max-width: 154px;
+  width: 20%;
+  margin-bottom: 24px;
+  border: 1px solid #303030;
+}
+
+.footer .world-icon {
+  color: #ccc;
+  position: relative;
+  top: 40px;
+  left: 12px;
+  font-size: 20px;
+}
+
+.footer .lang-picker select {
+  width: 100%;
+  padding: 17px 0px 17px 40px;
+  font-size: 1em;
+  background-image: none;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer p {
+  color: #999;
+  font-size: 13px;
+}

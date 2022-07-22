@@ -1,0 +1,186 @@
+@media (min-width: 740px) and (max-width: 1024px) {
+  .story-email-form .submit-form {
+    border: none;
+    padding: 21px 20px 19px 20px;
+    font-size: 1.575rem;
+    letter-spacing: 2px;
+  }
+  /* heading */
+  .heading {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.8) 10%,
+        rgba(0, 0, 0, 0.4) 40%,
+        rgba(0, 0, 0, 0.8) 80%
+      ),
+      url(https://assets.nflxext.com/ffe/siteui/vlv3/ebff1e0f-5704-423f-b4c6-94914dabe25b/8589c3bd-20d3-4674-ab6a-a62804ce8c1e/VN-en-20220509-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-position: center;
+  }
+
+  /* middle-2 */
+  .middle-2 .story-middle-text {
+    width: 44%;
+  }
+
+  .main-middle-2 {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .middle-2 .story-subtitle {
+    width: 92%;
+  }
+
+  .middle-2 img {
+    width: 40%;
+  }
+
+  /* middle-3 */
+  .middle-3 ul {
+    width: 70%;
+  }
+
+  .story-email-form .email-form {
+    padding: 16px 130px 16px 8px;
+  }
+  .container-footer {
+    max-width: 930px;
+  }
+}
+
+@media (max-width: 739px) {
+  .heading {
+    height: 60vh;
+  }
+
+  .story-header-wrapper img {
+    width: 88px;
+  }
+
+  .lang-container .world-icon {
+    top: 0;
+    left: 36px;
+  }
+
+  .middle-1 {
+    padding-top: 50px;
+  }
+
+  .middle-1 .story-title {
+    font-size: 1.75rem;
+  }
+
+  .story-email-form {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .middle-1 .story-subtitle {
+    font-size: 1.125rem;
+    font-weight: 200;
+  }
+
+  .story-email-form .email-form {
+    max-width: 100%;
+    padding: 16px 130px 16px 8px;
+  }
+
+  .story-email-form .story-email-title {
+    font-size: 1.125rem;
+    font-weight: 200;
+    padding-top: 4px;
+  }
+
+  .angle-right-icon {
+    font-size: 12px;
+    right: 24px;
+  }
+
+  .story-email-form .submit-form {
+    font-size: 1rem;
+    margin-top: 8px;
+    letter-spacing: 1px;
+    padding: 12px 24px 12px 8px;
+  }
+
+  .story-header-wrapper img {
+    margin-top: 28px;
+    margin-left: 22px;
+  }
+
+  .story-header-wrapper .lang-container {
+    width: 15%;
+    margin-right: 16px;
+    min-width: 226px;
+  }
+
+  .main-middle-2 {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 50px 0;
+  }
+
+  .middle-2 .story-middle-text {
+    width: 100%;
+  }
+
+  .middle-3 .story-title,
+  .middle-2 .story-title {
+    font-size: 1.625rem;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .middle-2 a {
+    display: none;
+  }
+
+  .middle-2 .story-subtitle {
+    font-size: 1.125rem;
+    text-align: center;
+    margin: 16px auto;
+  }
+
+  .middle-2 img {
+    width: 100%;
+  }
+
+  .middle-3 {
+    padding: 50px 0;
+  }
+
+  .lang-container .lang-picker select {
+    padding: 4px 4px 4px 16px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 12px;
+    border: 2px solid #aaa;
+    min-width: 100px;
+  }
+  .lang-container .sign-up {
+    line-height: 28px;
+    min-width: 70px;
+    font-size: 12px;
+    padding: 0 12px;
+  }
+
+  .middle-3 ul {
+    width: 100%;
+    margin: 24px auto;
+  }
+
+  .middle-3 button,
+  .middle-3 .desc-answer {
+    font-size: 1.125rem;
+  }
+
+  .footer .contact-list-item {
+    width: 50%;
+  }
+
+  .footer .world-icon {
+    font-size: 18px;
+  }
+
+  .footer .lang-picker {
+    width: 50%;
+  }
+}
